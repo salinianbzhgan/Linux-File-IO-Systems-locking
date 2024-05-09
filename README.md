@@ -36,7 +36,8 @@ while((nread = read(in,block,sizeof(block))) > 0)
 write(out,block,nread);
 exit(0);}
 ```
-
+## OUTPUT
+![image](https://github.com/salinianbzhgan/Linux-File-IO-Systems-locking/assets/145742862/2c5c42da-bd26-4568-8ee8-87535623fa8b)
 
 ## 2.To Write a C program that illustrates files locking
 ```
@@ -80,7 +81,6 @@ return 0;
 ```
 
 ## OUTPUT
-![image](https://github.com/salinianbzhgan/Linux-File-IO-Systems-locking/assets/145742862/2c5c42da-bd26-4568-8ee8-87535623fa8b)
 ![image](https://github.com/salinianbzhgan/Linux-File-IO-Systems-locking/assets/145742862/ac35b53b-bea8-43e5-b2f4-293e5d398eb5)
 
 
